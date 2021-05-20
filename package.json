@@ -17,5 +17,8 @@
     "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-terser": "^1.4.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.1"
   }
 }

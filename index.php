@@ -8,11 +8,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>L'æKARi</title>    
+    <title>L'æKARi</title>
+
+    <link href="css/styles.css" rel="stylesheet" type="text/css">    
 
 </head>
 
-<body>    
+<body>
+
+    <?php include "header.php"; ?>
     
 </body>
 
