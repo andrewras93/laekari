@@ -1,0 +1,31 @@
+.btn-light, .btn {
+
+  font-size: 18px;
+  font-weight: 500;
+  color: $white;
+
+}
+
+.btn-light:hover, .btn:hover {
+
+  color: $white;
+
+}
+
+.btn-light:hover {
+
+  background: $secondary;
+
+}
+
+.btn {
+
+  border: 2px solid $light;
+
+}
+
+.btn:hover {
+
+  border-color: $secondary;
+
+}
