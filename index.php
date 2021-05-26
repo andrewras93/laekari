@@ -10,6 +10,7 @@
 
     <title>L'æKARi</title>
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet" type="text/css">    
 
 </head>
@@ -140,6 +141,50 @@
     </div>
 
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2265.095698717019!2d11.360303115377867!3d55.4086820804627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464d63639be9a663%3A0xca847794c3cc84a0!2zTCfDpmthcmk!5e0!3m2!1sda!2sdk!4v1622038048986!5m2!1sda!2sdk" width="100%" height="400vh" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    <div id="opening-hours" class="container">
+
+        <div class="pb-md-5 pb-lg-0 mt-5 mb-5">
+
+            <h3 class="text-center">Kom indenfor til en verden af lækkerier</h3>
+            <h2 class="display-1 text-uppercase text-center">Åben alle ugens dage</h2>
+
+            <p class="lead text-center mt-5">Vi har et bredt udvalg af kager og donuts, og går ikke på kompromis med kvaliteten.</p>
+
+        </div>
+
+        <div class="row pt-lg-5 mb-5">
+
+            <div class="text-center col-md-6 col-lg-4">
+
+                <img src="images/donut.png" alt="Donut" class="img-fluid">
+
+            </div>
+
+            <div class="mt-5 mt-md-0 col-md-6 col-lg-4 text-center">
+
+                <img src="images/clock.svg" alt="Ur ikon" class="img-fluid">
+
+                <h4 class="text-uppercase mt-5">Mandag - Søndag</h4>
+                <p>07.30 - 17.00</p>
+
+
+            </div>
+
+            <div class="mt-5 col-md-12 m-md-auto col-lg-4">
+
+                <h2 class="pt-md-5 pt-lg-0 text-uppercase">Vi leverer kagen du leverer festen</h2>
+
+                <p>Vi får glæde af at levere kage og donuts hver dag, der overgår alle forventninger, så du kan glæde dig selv og dine nærmeste med vores altid friskbagte lækkerier.</p>
+                <p>For os er det vigtigt at du altid får lige præcis hvad du har betalt for, om det er en kage lavet på bestilling eller et udvalg af vores hjemmelavet donuts, så skal smagsoplevelsen være i orden. Vi tager derfor altid imod konstruktiv kritik, på den måde kan vi konstant forbedre os og sikre at vi forbliver din favorit donut butik i Slagelse.</p>
+
+                <a href="om-laekari.php" class="btn btn-secondary border-0 rounded-0 text-uppercase">Læs Mere Om Os</a>
+
+            </div>
+
+        </div>
+
+    </div>
 
     <script src="js/script.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
