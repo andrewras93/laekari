@@ -17,6 +17,7 @@ body {
 
     font-family: 'Roboto', sans-serif;
     color: $white;
+    background: $black;
 
 }
 
@@ -33,5 +34,19 @@ body {
     background: url("../images/front-page-hero.png") no-repeat center;
     background-size: cover;
     height: 100vh;
+
+}
+
+#cards-section .lead {
+
+    max-width: 700px;
+
+}
+
+#cards-section .card {
+
+    background: $dark;
+    border: 3px solid $light;
+    min-height: 472.97px;
 
 }

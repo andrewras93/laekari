@@ -1,3 +1,12 @@
+h3 {
+
+  font-size: 24px;
+  font-weight: 500;
+  font-style: italic;
+  color: $secondary;
+
+}
+
 .display-1 {
 
   font-size: 36px;
@@ -9,5 +18,26 @@
 
   font-size: 18px;
   font-weight: 400;
+
+}
+
+#cards-section .card h4 {
+
+  font-size: 18px;
+  font-weight: 500;
+
+}
+
+#cards-section .card p {
+
+  font-size: 14px;
+  font-weight: 400;
+
+}
+
+#cards-section .card a {
+
+  font-size: 14px;
+  font-weight: 500;
 
 }
