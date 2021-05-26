@@ -139,6 +139,8 @@
         </div>
     </div>
 
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2265.095698717019!2d11.360303115377867!3d55.4086820804627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464d63639be9a663%3A0xca847794c3cc84a0!2zTCfDpmthcmk!5e0!3m2!1sda!2sdk!4v1622038048986!5m2!1sda!2sdk" width="100%" height="400vh" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
     <script src="js/script.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
