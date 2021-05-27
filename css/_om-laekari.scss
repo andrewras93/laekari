@@ -1,0 +1,19 @@
+#about-hero {
+
+  background: url("../images/about-hero.png") no-repeat center;
+  background-size: cover;
+  height: 80vh;
+
+}
+
+#about-page-parallax-image {
+
+  background: url("../images/about-page-parallax-image.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  background-attachment: fixed;
+  position: relative;
+
+}
