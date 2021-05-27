@@ -4,6 +4,7 @@
 @import "typographi";
 @import "buttons";
 @import "header";
+@import "bestilling";
 
 $theme-colors: (
 
@@ -21,7 +22,7 @@ body {
 
 }
 
-.parallax-image {
+#front-page-parallax-image {
 
     background: url("../images/front-page-parallax-image.png");
     background-position: center;
