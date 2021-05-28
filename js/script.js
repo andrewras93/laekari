@@ -1,4 +1,5 @@
 const header = document.querySelector('#header');
+const headerLogo = document.querySelector('#headerLogo');
 
 window.onscroll = function() {
 
@@ -6,15 +7,26 @@ window.onscroll = function() {
 
     if (top >= 100) {
 
-        header.classList.add('bg-primary');        
+        header.classList.add('bg-primary');
+        headerLogo.classList.add('header-logo-small');
 
     } else {
 
-        header.classList.remove('bg-primary');        
+        header.classList.remove('bg-primary');
+        headerLogo.classList.remove('header-logo-small');
 
     }
 
 }
+
+const navBarTogglerIcon = document.querySelector('.navbar-toggler-icon');
+
+navBarTogglerIcon.onclick = function () {
+
+    header.classList.add('bg-primary');
+
+}
+
 
 const currentLocation = location.href;
 const menuItem = document.querySelectorAll('.navbar-nav > a');
