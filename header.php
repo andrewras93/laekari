@@ -3,7 +3,7 @@
     <nav id="nav" class="navbar navbar-expand-lg navbar-dark container">
 
         <a class="navbar-brand" href="index.php">
-            <img src="./images/header-logo.png" alt="L'æKARi logo" class="img-fluid">
+            <img id="headerLogo" src="./images/header-logo-large.png" alt="L'æKARi logo" class="img-fluid">
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

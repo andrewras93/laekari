@@ -29,8 +29,8 @@
                 kage på bestilling, hos din lokale konditor i Slagelse.</p>
 
             <div class="mt-3">
-                <a class="btn btn-light text-uppercase rounded-0 mt-1" href="bestilling.php">Bestilling</a>
-                <a class="btn btn-border text-uppercase rounded-0 mt-1" href="donuts.php">Se Udvalg</a>
+                <a class="btn btn-light text-uppercase rounded-0 mt-1 me-sm-2" href="bestilling.php">Bestilling</a>
+                <a class="btn btn-border text-uppercase rounded-0 mt-1 ms-sm-2" href="donuts.php">Se Udvalg</a>
             </div>
 
         </div>
@@ -57,7 +57,7 @@
                                 <img src="images/card-donuts.png" alt="Donuts" class="img-fluid">
 
                                 <div class="card-content pe-3 ps-3 pt-3">
-                                    <h4 class="card-title text-uppercase">Billige Donuts</h4>
+                                    <h4 class="card-title text-uppercase text-secondary">Billige Donuts</h4>
                                     <p>Lad os pirrer dine smagsløg med vores unikke og hjemmelavet donuts, bagt med ekstra meget kærlighed og med respekt for det gamle bagerhåndværk. Hos L’æKARi har vi nogle af de bedste donuts i Slagelse, til overkommelige priser.</p>
                                 </div>
 
@@ -78,7 +78,7 @@
                                 <img src="images/card-party-cakes.png" alt="Festkage" class="img-fluid">
 
                                 <div class="card-content pe-3 ps-3 pt-3">
-                                    <h4 class="card-title text-uppercase">Festkager</h4>
+                                    <h4 class="card-title text-uppercase text-secondary">Festkager</h4>
                                     <p>Vi bager den perfekte kage til netop din store fest, om det er bryllup, babyshower, fødselsdag eller et andet festligt arrangement, så kan du trygt regne med at vi leverer en kage som afspejler det ønskede tema.</p>
                                 </div>
 
@@ -99,7 +99,7 @@
                                 <img src="images/card-order-cake.png" alt="Bryllupskage" class="img-fluid">
 
                                 <div class="card-content pe-3 ps-3 pt-3">
-                                    <h4 class="card-title text-uppercase">Kage Bestilling</h4>
+                                    <h4 class="card-title text-uppercase text-secondary">Kage Bestilling</h4>
                                     <p>Med vores online bestillingsformular kan du nemt og hurtigt bestille en kage eller lækre donuts til den søde tand, og afhente i butikken samme dag eller på et senere tidspunkt, alt efter aftale.</p>
                                 </div>
 
@@ -120,7 +120,7 @@
                                 <img src="images/card-about.png" alt="L'æKARi skranke" class="img-fluid">
 
                                 <div class="card-content pe-3 ps-3 pt-3">
-                                    <h4 class="card-title text-uppercase">OM L’æKARi</h4>
+                                    <h4 class="card-title text-uppercase text-secondary">OM L’æKARi</h4>
                                     <p>Vi gør en dyd ud af at leverer et godt stykke bagerhåndværk, og med vores hjemmelavet donuts er vi kundens foretrukne donut butik i Slagelse. Hos os er kundetilfredshed første prioritet og du vil derfor altid blive mødt med et smil på læben når du træder ind i vores butik.</p>
                                 </div>
 
@@ -142,43 +142,47 @@
 
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2265.095698717019!2d11.360303115377867!3d55.4086820804627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464d63639be9a663%3A0xca847794c3cc84a0!2zTCfDpmthcmk!5e0!3m2!1sda!2sdk!4v1622038048986!5m2!1sda!2sdk" width="100%" height="400vh" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
-    <div id="opening-hours" class="container">
+    <div id="opening-hours" class="bg-dark pt-5 pb-5">
 
-        <div class="pb-md-5 pb-lg-0 mt-5 mb-5">
+        <div class="container">
 
-            <h3 class="text-center">Kom indenfor til en verden af lækkerier</h3>
-            <h2 class="display-1 text-uppercase text-center">Åben alle ugens dage</h2>
+            <div class="pb-md-5 pb-lg-0">
 
-            <p class="lead text-center mt-5">Vi har et bredt udvalg af kager og donuts, og går ikke på kompromis med kvaliteten.</p>
+                <h3 class="text-center">Kom indenfor til en verden af lækkerier</h3>
+                <h2 class="display-1 text-uppercase text-center">Åben alle ugens dage</h2>
 
-        </div>
-
-        <div class="row pt-lg-5 mb-5">
-
-            <div class="text-center col-md-6 col-lg-4">
-
-                <img src="images/donut.png" alt="Donut" class="img-fluid">
+                <p class="lead text-center mt-5">Vi har et bredt udvalg af kager og donuts, og går ikke på kompromis med kvaliteten.</p>
 
             </div>
 
-            <div class="mt-5 mt-md-0 col-md-6 col-lg-4 text-center">
+            <div class="row pt-lg-5">
 
-                <img src="images/clock.svg" alt="Ur ikon" class="img-fluid">
+                <div class="text-center col-md-6 col-lg-4">
 
-                <h4 class="text-uppercase mt-5">Mandag - Søndag</h4>
-                <p>07.30 - 17.00</p>
+                    <img src="images/donut.png" alt="Donut" class="img-fluid">
+
+                </div>
+
+                <div class="mt-5 mt-md-0 col-md-6 col-lg-4 text-center">
+
+                    <img src="images/clock.svg" alt="Ur ikon" class="img-fluid">
+
+                    <h4 class="text-uppercase mt-5">Mandag - Søndag</h4>
+                    <p>07.30 - 17.00</p>
 
 
-            </div>
+                </div>
 
-            <div class="mt-5 col-md-12 m-md-auto col-lg-4">
+                <div class="mt-5 col-md-12 m-md-auto col-lg-4">
 
-                <h2 class="pt-md-5 pt-lg-0 text-uppercase">Vi leverer kagen du leverer festen</h2>
+                    <h2 class="pt-md-5 pt-lg-0 text-uppercase">Vi leverer kagen du leverer festen</h2>
 
-                <p>Vi får glæde af at levere kage og donuts hver dag, der overgår alle forventninger, så du kan glæde dig selv og dine nærmeste med vores altid friskbagte lækkerier.</p>
-                <p>For os er det vigtigt at du altid får lige præcis hvad du har betalt for, om det er en kage lavet på bestilling eller et udvalg af vores hjemmelavet donuts, så skal smagsoplevelsen være i orden. Vi tager derfor altid imod konstruktiv kritik, på den måde kan vi konstant forbedre os og sikre at vi forbliver din favorit donut butik i Slagelse.</p>
+                    <p>Vi får glæde af at levere kage og donuts hver dag, der overgår alle forventninger, så du kan glæde dig selv og dine nærmeste med vores altid friskbagte lækkerier.</p>
+                    <p>For os er det vigtigt at du altid får lige præcis hvad du har betalt for, om det er en kage lavet på bestilling eller et udvalg af vores hjemmelavet donuts, så skal smagsoplevelsen være i orden. Vi tager derfor altid imod konstruktiv kritik, på den måde kan vi konstant forbedre os og sikre at vi forbliver din favorit donut butik i Slagelse.</p>
 
-                <a href="om-laekari.php" class="btn btn-secondary border-0 rounded-0 text-uppercase">Læs Mere Om Os</a>
+                    <a href="om-laekari.php" class="btn btn-secondary border-0 rounded-0 text-uppercase">Læs Mere Om Os</a>
+
+                </div>
 
             </div>
 

@@ -40,6 +40,9 @@
                 </div>
 
                 <div class="col-lg-6 mt-5 mt-lg-0">
+
+                    <h2 class="display-1 mb-4 text-secondary">HJEMMELAVET FRA HJERTET</h2>
+
                     <p>
                         Hos L’æKARi bager vi med passion og kærlighed for det traditionelle bagerhåndværk.<br>
                         Ved hjælp af vores bestillingsformular kan du bestille din helt egen personlige kage, der afspejler lige netop det tema du ønsker at fejre. Om det er en mindre fødselsdag, eller et større bryllup, så kan du være sikker på at vi leverer varen.
