@@ -72,7 +72,7 @@
                 <div class="col-lg-6">
 
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" disabled>
                         <label class="form-check-label" for="inlineRadio1">Bestil donuts</label>
                     </div>
 
@@ -82,7 +82,7 @@
                     </div>
 
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" disabled>
                         <label class="form-check-label" for="inlineRadio3">Bestil begge</label>
                     </div>
 
@@ -114,7 +114,10 @@
                         </div>
 
                         <div class="col-12">
-                            <button type="submit" class="btn btn-secondary border-0 rounded-0 text-uppercase">Send Bestilling</button>
+                            <button id="submitCakeOrder" type="submit" class="btn btn-secondary border-0 rounded-0 text-uppercase">Send Bestilling</button>
+                        </div>
+                        <div id="cakeOrderErrorMessage" class="text-danger mt-3 hide">
+                            <strong>Udfyld venligst alle felter markeret med *</strong>
                         </div>
 
                     </form>
