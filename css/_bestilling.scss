@@ -10,6 +10,14 @@
 
 }
 
+#inputPhone::-webkit-outer-spin-button,
+#inputPhone::-webkit-inner-spin-button {
+
+  appearance: none;
+  margin: 0;
+
+}
+
 #order-hero {
 
   background: url("../images/order-hero.png") no-repeat center;
