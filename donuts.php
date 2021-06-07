@@ -18,6 +18,7 @@
 <body>
 
     <?php include "header.php"; ?>
+    <?php include "social-icons.php" ?>
 
     <div id="donuts-hero" class="d-flex justify-content-center align-items-center text-center">
 
