@@ -19,6 +19,7 @@
 
     <?php include "header.php"; ?>
     <?php include "social-icons.php" ?>
+    <?php include "chat-box.php" ?>
 
     <div id="front-page-jumbotron" class="d-flex justify-content-center align-items-center text-center">
 

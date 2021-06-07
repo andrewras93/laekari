@@ -123,4 +123,19 @@ function getOrderFormData(e) {
 
 let submitCakeOrder = document.getElementById('submitCakeOrder');
 
-submitCakeOrder.addEventListener('click', getOrderFormData);
+if (submitCakeOrder) {
+
+    submitCakeOrder.addEventListener('click', getOrderFormData);
+
+} else {
+    console.log(`The ID #submitCakeOrder was not found`);
+}
+
+let chatButton = document.querySelector('.chat-btn');
+let chatBox = document.querySelector('.chat-box');
+
+chatButton.addEventListener('click', function () {
+
+    chatBox.classList.toggle('hide');
+
+});
