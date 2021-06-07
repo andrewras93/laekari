@@ -103,7 +103,7 @@
 
                         <div class="col-md-6">
                             <label for="inputPhone" class="form-label text-uppercase">Tlf. nummer:</label>
-                            <input type="tel" minlength="8" maxlength="8" class="form-control" id="inputPhone" placeholder="Indtast Telefonnummer">
+                            <input type="number" class="form-control" id="inputPhone" placeholder="Indtast Telefonnummer">
                             <div id="invalidPhoneMessage" class="text-danger mt-2 hide">
                                 <strong>Indtast venligst et gyldigt telefonnummer</strong>
                             </div>

@@ -59,9 +59,28 @@ function getOrderFormData(e) {
 
         cakeOrderErrorMessage.classList.add('show');
 
-    } else {
+    }
+
+    else {
+
+        invalidEmailMessage.classList.remove('show');
+        invalidPhoneMessage.classList.remove('show');
 
         var mailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+
+        if ( !inputEmail.value.match(mailformat) && inputPhone.value && inputPhone.value.length !== 8 ) {
+
+            let invalidEmailMessage = document.getElementById('invalidEmailMessage');
+
+            invalidEmailMessage.classList.add('show');
+
+            let invalidPhoneMessage = document.getElementById('invalidPhoneMessage');
+
+            invalidPhoneMessage.classList.add('show');
+
+            return;
+
+        }
 
         if ( !inputEmail.value.match(mailformat) ) {
 
@@ -69,15 +88,19 @@ function getOrderFormData(e) {
 
             invalidEmailMessage.classList.add('show');
 
+            return;
+
         }
 
-        /*if ( inputPhone.value && inputPhone.value.length !== 8 ) {
+        if ( inputPhone.value && inputPhone.value.length !== 8 ) {
 
             let invalidPhoneMessage = document.getElementById('invalidPhoneMessage');
 
             invalidPhoneMessage.classList.add('show');
 
-        }*/
+            return;
+
+        }
 
          else {
 
