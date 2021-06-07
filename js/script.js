@@ -61,13 +61,38 @@ function getOrderFormData(e) {
 
     } else {
 
-        alert(`Hej ${inputName.value}, tak for din bestilling til ${inputGuests.value} gæster. En bestillingsordre er sendt til dig via. din email: ${inputEmail.value}.`);
+        var mailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
 
-        inputName.value = '';
-        inputEmail.value = '';
-        inputPhone.value = '';
-        inputGuests.value = '';
-        inputDescription.value = '';
+        if ( !inputEmail.value.match(mailformat) ) {
+
+            let invalidEmailMessage = document.getElementById('invalidEmailMessage');
+
+            invalidEmailMessage.classList.add('show');
+
+        }
+
+        /*if ( inputPhone.value && inputPhone.value.length !== 8 ) {
+
+            let invalidPhoneMessage = document.getElementById('invalidPhoneMessage');
+
+            invalidPhoneMessage.classList.add('show');
+
+        }*/
+
+         else {
+
+            alert(`Hej ${inputName.value}, tak for din bestilling til ${inputGuests.value} gæster. En bestillingsordre er sendt til dig via. din email: ${inputEmail.value}.`);
+
+            inputName.value = '';
+            inputEmail.value = '';
+            inputPhone.value = '';
+            inputGuests.value = '';
+            inputDescription.value = '';
+
+            invalidEmailMessage.classList.remove('show');
+            invalidPhoneMessage.classList.remove('show');
+
+        }
 
     }
 
