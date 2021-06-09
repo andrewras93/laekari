@@ -1,0 +1,159 @@
+.chat-box {
+
+  width: 400px;
+  height: 450px;
+  background-color: $white;
+  overflow: hidden;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 90px;
+  right: 90px;
+  z-index: 1000;
+
+}
+
+.client {
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 80px;
+  background-color: $light;
+  padding: 15px;
+
+}
+
+.client-info {
+
+  padding: 15px;
+
+}
+
+.client-info p {
+
+  color: $white;
+  font-weight: bold;
+  font-size: 1em;
+
+}
+
+.chats {
+
+  width: 100%;
+  padding: 0 15px;
+  color: $white;
+  position: relative;
+  font-size: 0.9em;
+
+}
+
+.client-chat {
+
+  width: 60%;
+  word-wrap: break-word;
+  background-color: $secondary;
+  padding: 7px 10px;
+  border-radius: 10px 10px 10px 0;
+  margin: 10px 0;
+
+}
+
+.chat-input {
+
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 65px;
+  background-color: $light;
+  padding: 15px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  border: none;
+
+}
+
+.chat-input input {
+
+  width: calc(100% - 40px);
+  height: 100%;
+  border-radius: 50px;
+  font-size: 1em;
+  padding: 0 15px;
+  border: 2px solid $secondary;
+
+}
+
+.chat-input input:focus {
+
+  outline: none;
+
+}
+
+.send-btn {
+
+  cursor: pointer;
+  margin-left: 8px;
+
+}
+
+.send-btn:active {
+
+  transform: scale(0.85);
+
+}
+
+.chat-btn {
+
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  overflow: hidden;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+
+}
+
+.chat-btn img {
+
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px;
+  transition: 0.3s ease-in-out;
+
+}
+
+.chat-btn:hover img {
+
+  transform: rotate(10deg);
+
+}
+
+@media only screen and (max-width: 576px) {
+
+  .chat-box {
+
+    width: 100%;
+    height: 600px;
+    right: 0;
+
+  }
+
+  .chat-btn:hover img {
+
+    transform: rotate(0deg);
+
+  }
+
+  .client-chat {
+
+    width: 100%;
+
+  }
+
+}
