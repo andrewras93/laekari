@@ -8,6 +8,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta name="robots" content="All">
+    <meta name="author" content="Andrew & Steffen">
+    <meta name="copyright" content="Copyright 2021 L'æKARi">
+    <meta name="description" content="L'æKARi, din lokale konditor i Slagelse, med byens bedste donuts, til overkommelige priser.">
+
+    <meta property="og:title" content="L'æKARi">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.laekari.dk">
+    <meta property="og:image" content="https://www.laekari.dk/images/laekari-logo.png">
+    <meta property="og:description" content="Kom indenfor hos L'æKARi, til en verden af lækkerier og smag vores lækre hjemmelavet donuts eller få lavet din helt egen kage på bestilling.">
+    <meta property="og:locale" content="da_DK">
+
     <title>L'æKARi</title>
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
