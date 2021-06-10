@@ -21,12 +21,11 @@ window.onscroll = function() {
 
 const navBarTogglerIcon = document.querySelector('.navbar-toggler-icon');
 
-navBarTogglerIcon.onclick = function () {
+    navBarTogglerIcon.onclick = function () {
 
     header.classList.add('bg-primary');
 
 }
-
 
 const currentLocation = location.href;
 const menuItem = document.querySelectorAll('.navbar-nav > a');

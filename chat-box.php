@@ -1,7 +1,7 @@
 <div class="chat-box hide">
 
     <div class="client">
-        <img src="images/header-logo.png" alt="L'æKARi logo hvid">
+        <img src="images/logo-chatbox.png" alt="L'æKARi logo hvid">
         <div class="client-info">
             <p>Chat med os!</p>
         </div>
@@ -20,9 +20,9 @@
         <input type="text" placeholder="Indtast besked" />
         <span class="send-btn">Send</span>
     </div>
+
 </div>
 
 <div class="chat-btn">
     <img src="images/chat-box.svg" alt="Chat ikon">
-</div>
 </div>
