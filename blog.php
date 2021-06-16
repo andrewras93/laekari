@@ -37,8 +37,8 @@
         </div>
         <div id="blog-posts-overview" class="row pt-5 pb-5">
             <div class="mt-4 col-md-6 col-lg-4">
-                <a href="#" class="card bg-dark text-white border-light border-2 rounded-0">
-                    <img src="images/blog-post-image.png" class="card-img" alt="...">
+                <a href="blog-post.php" class="card bg-dark text-white border-light border-2 rounded-0">
+                    <img src="images/blog-post-image.png" class="card-img" alt="En kage lavet ud fra en tegning">
                     <div class="card-img-overlay">
                         <h5 class="card-title text-secondary">Card title</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -47,8 +47,8 @@
                 </a>
             </div>
             <div class="mt-4 col-md-6 col-lg-4">
-                <a href="#" class="card bg-dark text-white border-light border-2 rounded-0">
-                    <img src="images/blog-post-image-2.png" class="card-img" alt="...">
+                <a href="" class="card bg-dark text-white border-light border-2 rounded-0">
+                    <img src="images/blog-post-image-2.png" class="card-img" alt="Holder med fingerspidserne om en mini donut">
                     <div class="card-img-overlay">
                         <h5 class="card-title text-secondary">Card title</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -57,8 +57,8 @@
                 </a>
             </div>
             <div class="mt-4 col-md-6 col-lg-4">
-                <a href="#" class="card bg-dark text-white border-light border-2 rounded-0">
-                    <img src="images/blog-post-image-3.png" class="card-img" alt="...">
+                <a href="" class="card bg-dark text-white border-light border-2 rounded-0">
+                    <img src="images/blog-post-image-3.png" class="card-img" alt="L'æKARi butiksfacade">
                     <div class="card-img-overlay">
                         <h5 class="card-title text-secondary">Card title</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -67,8 +67,8 @@
                 </a>
             </div>
             <div class="mt-4 col-md-6 col-lg-4">
-                <a href="#" class="card bg-dark text-white border-light border-2 rounded-0">
-                    <img src="images/blog-post-image-4.png" class="card-img" alt="...">
+                <a href="" class="card bg-dark text-white border-light border-2 rounded-0">
+                    <img src="images/blog-post-image-4.png" class="card-img" alt="Hjerteformet donuts sammen med buket blomster">
                     <div class="card-img-overlay">
                         <h5 class="card-title text-secondary">Card title</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
