@@ -16,6 +16,7 @@
                 <a class="nav-item nav-link" href="bestilling.php">Bestilling</a>
                 <a class="nav-item nav-link" href="donuts.php">Donuts</a>
                 <a class="nav-item nav-link" href="om-laekari.php">Om L'æKARi</a>
+                <a href="blog.php" class="nav-item nav-link">Blog</a>
             </div>
         </div>
         

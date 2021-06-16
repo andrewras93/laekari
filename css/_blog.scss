@@ -1,0 +1,40 @@
+#blog-hero {
+
+  background: url("../images/blog-hero.jpg");
+  background-size: cover;
+  min-height: 80vh;
+
+}
+
+.hero-overlay {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: inherit;
+  background: $black;
+  opacity: 0.4;
+  z-index: 1;
+
+}
+
+#blog-hero .container, #blog-post-hero .container {
+
+  z-index: 1;
+
+}
+
+#blog-hero h1, #blog-post-hero h1 {
+
+  z-index: 2;
+
+}
+
+#blog-post-hero {
+
+  background: url("../images/blog-post-fullsize-image.png") no-repeat center;
+  background-size: cover;
+  min-height: 80vh;
+
+}
