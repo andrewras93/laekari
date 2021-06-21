@@ -41,6 +41,12 @@ for (let i = 0; i < menuLength; i++) {
 
 }
 
+if (currentLocation.match('blog-post.php')) {
+
+    menuItem[4].classList.add('active');
+
+}
+
 function getOrderFormData(e) {
 
     e.preventDefault();

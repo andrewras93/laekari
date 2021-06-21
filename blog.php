@@ -31,8 +31,8 @@
 <div id="blog-posts" class="bg-gradient pt-5 pb-5">
     <div class="container">
         <div class="section-headings text-center">
-            <h3>Heading 2</h3>
-            <h2 class="display-1">Heading 1</h2>
+            <h3>Hver kage har en god fortælling</h3>
+            <h2 class="display-1 text-uppercase">Vi deler fortællingen med dig</h2>
             <p class="lead mt-5">Klik ind og læs vores seneste blog posts</p>
         </div>
         <div id="blog-posts-overview" class="row pt-5 pb-5">
@@ -40,8 +40,8 @@
                 <a href="blog-post.php" class="card bg-dark text-white border-light border-2 rounded-0">
                     <img src="images/blog-post-image.png" class="card-img" alt="En kage lavet ud fra en tegning">
                     <div class="card-img-overlay">
-                        <h5 class="card-title text-secondary">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <h5 class="card-title">Fødselsdagsfesten gjort ekstra speciel</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur corporis deleniti doloremque fugiat magnam quo saepe sed similique tempore velit.</p>
                         <p class="card-text fw-bold">Tilføjet: 16/06/2021</p>
                     </div>
                 </a>
@@ -50,8 +50,8 @@
                 <a href="" class="card bg-dark text-white border-light border-2 rounded-0">
                     <img src="images/blog-post-image-2.png" class="card-img" alt="Holder med fingerspidserne om en mini donut">
                     <div class="card-img-overlay">
-                        <h5 class="card-title text-secondary">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <h5 class="card-title">Hver en krumme tæller</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad distinctio maxime nihil quasi totam! Consequuntur doloremque eum labore quaerat quos.</p>
                         <p class="card-text fw-bold">Tilføjet: 13/05/2021</p>
                     </div>
                 </a>
@@ -60,8 +60,8 @@
                 <a href="" class="card bg-dark text-white border-light border-2 rounded-0">
                     <img src="images/blog-post-image-3.png" class="card-img" alt="L'æKARi butiksfacade">
                     <div class="card-img-overlay">
-                        <h5 class="card-title text-secondary">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <h5 class="card-title">Vores fortælling</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis deleniti dolorum excepturi facilis id placeat provident quidem quisquam ut veritatis.</p>
                         <p class="card-text fw-bold">Tilføjet: 03/04/2021</p>
                     </div>
                 </a>
@@ -70,8 +70,8 @@
                 <a href="" class="card bg-dark text-white border-light border-2 rounded-0">
                     <img src="images/blog-post-image-4.png" class="card-img" alt="Hjerteformet donuts sammen med buket blomster">
                     <div class="card-img-overlay">
-                        <h5 class="card-title text-secondary">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <h5 class="card-title">Vi elsker valentinsdag</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi corporis cum impedit ipsam, modi officia pariatur quibusdam quisquam repellat ut!</p>
                         <p class="card-text fw-bold">Tilføjet: 07/02/2021</p>
                     </div>
                 </a>
